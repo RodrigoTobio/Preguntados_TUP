@@ -1,0 +1,11 @@
+numero_pregunta,cantidad_preguntada_facil,cantidad_aciertos_facil,cantidad_fallos_facil,cantidad_preguntada_normal,cantidad_aciertos_normal,cantidad_fallos_normal,cantidad_preguntada_dificil,cantidad_aciertos_dificil,cantidad_fallos_dificil
+1,21,18,3,17,13,4,6,2,4
+2,23,18,5,19,14,5,7,5,2
+3,26,18,8,21,16,5,8,4,4
+4,19,8,11,14,9,5,6,3,3
+5,31,19,12,26,17,9,8,5,3
+6,19,10,9,15,10,5,5,2,3
+7,18,11,7,16,12,4,4,3,1
+8,14,11,3,14,8,6,4,2,2
+9,16,11,5,16,12,4,5,3,2
+10,10,7,3,12,8,4,3,1,2

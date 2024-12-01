@@ -1,0 +1,31 @@
+dificultad,pregunta,opciones,respuesta_correcta
+facil,¿Qué función en Python se utiliza para mostrar un mensaje en la consola?,"print();input();output();show()",print()
+facil,¿Qué símbolo se utiliza para comentar una línea en Python?,"#;%;//;/*",#
+facil,¿Cuál es el operador para la división entera en Python?,"/;//;%;**",//
+facil,¿Cómo defines una lista vacía en Python?,"list=[];list=();list={};list=",list=[]
+facil,¿Qué función se utiliza para conocer la longitud de una lista?,"len();length();size();count()",len()
+facil,¿Qué tipo de dato se utiliza para representar palabras en Python?,"string;str;word;txt",str
+facil,¿Cómo se realiza la concatenación de cadenas en Python?,"join();concat();+;merge()",+
+facil,¿Qué función se utiliza para convertir un número a un entero en Python?,"int();long();float();str()",int()
+facil,¿Cuál es el resultado de la expresión 3 + 5 * 2 en Python?,"16;13;11;10",13
+facil,¿Cómo se verifica si un elemento está presente en una lista en Python?,"check();find();in;exists()",in
+normal,¿Qué función se utiliza para leer una línea de texto desde el teclado en Python?,"read();input();get();scan()",input()
+normal,¿Qué método se utiliza para agregar un elemento al final de una lista en Python?,"add();append();insert();push()",append()
+normal,¿Qué palabra clave se utiliza para definir una función en Python?,"function;def;lambda;fn",def
+normal,¿Cuál es el resultado de la operación 10 % 3 en Python?,"3;1;0;10",1
+normal,¿Qué tipo de estructura utiliza Python para almacenar pares clave-valor?,"list;tuple;dict;set",dict
+normal,¿Qué método elimina el primer elemento coincidente en una lista?,"delete();remove();pop();clear()",remove()
+normal,¿Qué operador lógico representa el **and** en Python?,"&;and;&&;||",and
+normal,¿Cómo se define un conjunto en Python?,"set=[];set={};set=();set=''",set={}
+normal,¿Qué palabra clave se utiliza para manejar excepciones en Python?,"try;catch;except;error",except
+normal,¿Cómo conviertes una lista en un conjunto en Python?,"set(list);list(set);convert(list);list->set",set(list)
+dificil,¿Qué estructura se utiliza para manejar múltiples excepciones en Python?,"try;except;try-except-finally;try-except-else-finally",try-except-else-finally
+dificil,¿Qué función convierte un iterable en un diccionario en Python?,"dict();map();zip();set()",dict()
+dificil,¿Cuál es el resultado de la operación **2** * **3** en Python?,"6;8;9;error",8
+dificil,¿Qué método devuelve el índice de un elemento en una lista?,"index();find();get();pos()",index()
+dificil,¿Cómo defines una clase en Python?,"class();define();new();struct()",class()
+dificil,¿Qué función devuelve una copia superficial de una lista?,"copy();list.copy();clone();deepcopy()",list.copy()
+dificil,¿Qué operador se utiliza para comparar si dos objetos tienen la misma referencia?,"==;is;eq;ref",is
+dificil,¿Qué librería estándar en Python se utiliza para manejar fechas y horas?,"datetime;time;calendar;date",datetime
+dificil,¿Qué se utiliza para indicar un bloque de código en Python?,"{};();indentación;<>",indentación
+dificil,¿Cómo se define una función anónima en Python?,"lambda def;anonymous def;lambda;fn",lambda
