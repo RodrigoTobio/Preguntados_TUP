@@ -407,16 +407,16 @@ def pedir_nombre_usuario(ventana: pygame.Surface, fuente: pygame.font.Font, cant
         # Mostrar puntaje final
         resultado_texto = fuente.render(
             f"Puntaje final: {cantidad_respuestas_correctas}/{total}", True, BLANCO)
-        ventana.blit(resultado_texto, (DIMENSIONES_VENTANA[0] // 2 - resultado_texto.get_width(
-        ) // 2, (DIMENSIONES_VENTANA[1] // 3 - 50)))
+        ventana.blit(resultado_texto, (ANCHO // 2 - resultado_texto.get_width(
+        ) // 2, (ALTO // 3 - 50)))
 
         mensaje = fuente.render("Ingrese su nombre:", True, BLANCO)
         ventana.blit(
-            mensaje, (DIMENSIONES_VENTANA[0] // 2 - mensaje.get_width() // 2, DIMENSIONES_VENTANA[1] // 3))
+            mensaje, (ANCHO // 2 - mensaje.get_width() // 2, ALTO // 3))
 
         nombre_texto = fuente.render(nombre_ingresado, True, ROJO)
         ventana.blit(
-            nombre_texto, (DIMENSIONES_VENTANA[0] // 2 - nombre_texto.get_width() // 2, DIMENSIONES_VENTANA[1] // 2))
+            nombre_texto, (ANCHO // 2 - nombre_texto.get_width() // 2, ALTO // 2))
 
         pygame.display.flip()
 
