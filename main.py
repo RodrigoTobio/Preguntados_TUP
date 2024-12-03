@@ -16,10 +16,8 @@ cargar_sonido(RUTA_SONIDO_MENU)
 fondo = cargar_fondo(RUTA_FONDO_MENU,DIMENSIONES_VENTANA)
 fuente = pygame.font.Font(None, 48)
 
-opciones_menu_principal = ["Jugar Partida", "Configuración",
-                           "Ranking",  "Estadísticas", "Salir"]
-botones_menu_principal = crear_botones(opciones_menu_principal,
-                            ALTO_BOTON_MENU, ANCHO_BOTON_MENU, ESPACIADO_BOTON_MENU)
+botones_menu_principal = crear_botones(OPCIONES_MENU, ALTO_BOTON_MENU,
+                                        ANCHO_BOTON_MENU, ESPACIADO_BOTON_MENU)
 
 iniciado = True
 mostrar_ranking = False

@@ -36,3 +36,7 @@ RUTA_SONIDO_MENU = "assets/preguntados_inicio.mp3"
 RUTA_IMAGEN_GAME_OVER = "assets/game_over2.jpg"
 RUTA_ACIERTO = "assets/acierto.mp3"
 RUTA_FALLO = "assets/error.mp3"
+
+
+OPCIONES_MENU = ["Jugar Partida", "Configuración",
+                "Ranking",  "Estadísticas", "Salir"]
